@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DSA Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title-section">
+           <h1>DSA Progress Dashboard 🚀</h1>
+           <p> Track your coding journey one problem at a time.</p>
+        </div>
+        <div class="popup hidden">
+           🏆 Achievement Unlocked!
+        </div>
+        <div class="stats-cards">
+            <div class="easy-card">
+                <h2>Easy</h2>
+                <span class="easy-count">120</span>
+            </div>
+            <div class="medium-card">
+                <h2>Medium</h2>
+                <span class="medium-count">60</span>
+            </div>
+            <div class="hard-card">
+                <h2>Hard</h2>
+                <span class="hard-count">10</span>
+            </div>
+        </div>
+        <div class="total-section">
+            <h2>🎯 Total Solved</h2>
+            <span class="total-count">209</span>
+            <p>Problems Solved</p>
+        </div>
+        
+        <div class="badge-section">
+            <div class="badges">
+              <span class="bronze">🥉 Bronze 🔒</span>
+              <span class="silver">🥈 Silver 🔒</span>
+              <span class="gold">🥇 Gold 🔒</span>
+            </div>
+        </div>
+        <div class="progress-section">
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <span class="progress-text">69%</span>
+        </div>
+        <div class="button-section">
+            <button class="easy-btn"> + Easy</button>
+            <button class="medium-btn">+ Medium</button>
+            <button class="hard-btn">+ Hard</button>
+            <button class="reset-btn">🔄 Reset</button>
+        </div>
+    </div>
+    <div class="achievement-overlay hidden">
+
+       <div class="achievement-card">
+
+            <div class="achievement-icon">
+              🥉
+            </div>
+
+            <h2>Achievement Unlocked!</h2>
+
+            <p>Bronze Badge Earned</p>
+
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
